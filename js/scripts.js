@@ -21,13 +21,13 @@ $(document).ready(function() {
     var result = triangle(side1, side2, side3);
 
     if (result === false) {
-      alert("false");
+      alert("Not a triangle.");
     } else if (result === "equilateral") {
-      alert("equilateral");
+      alert("Equilateral");
     } else if (result === "isosceles") {
-      alert("isosceles");
+      alert("Isosceles");
     } else {
-      alert("scalene");
+      alert("Scalene");
     }
 
   });
